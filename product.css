@@ -1,0 +1,27 @@
+h2.producttitle {
+	display: flex;
+  padding-left: 10vw;
+  color: green;
+  font-size: 50px;
+}
+
+p.about{
+	display: flex;
+	justify-content: center;
+
+}
+article.wrapper {
+	height: 100vh;
+    display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100vw;
+  background: white;
+  }
+
+  div.column {
+  display: flex;
+  position: relative;
+  
+  padding: 0 4px;
+}
