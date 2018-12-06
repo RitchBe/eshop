@@ -1,26 +1,43 @@
 h2.hometitle {
-	display: flex;
 	padding-left: 10vw;
 	color: green;
 	font-size: 50px;
 }
 
 img.logo {
-	display: flex;
-	-webkit-align-items: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  justify-content: center;	
   position: relative;
 }
 
 
 p.intro{
-	height: 100vh;
-	display: flex;
-	-webkit-align-items: center;
-  align-items: center;
-  
-  padding-left: 20vw;
+  width: 500px;
 
 }
+
+div.home-content {
+  display: flex;
+  -webkit-justify-content: space-evenly;
+          justify-content: space-evenly;
+      -webkit-align-items: center;
+              align-items: center;
+      width: 80vw;
+
+}
+
+div.earth-logo {
+  width: 500px;
+  height: 500px;
+  -webkit-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+article.main-content {
+  display: flex;
+  width: 100vw;
+  background: white;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
+  }

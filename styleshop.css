@@ -16,14 +16,15 @@ body {
   background: white;
   position: fixed;
   top: 0;
+  z-index: 10
   }
 
   h2.header-title {
- 
+
   margin: 1em 0 0.5em 0;
   color: green;
   font-weight: normal;
-  font-family: 'Ultra', sans-serif;   
+  font-family: 'Ultra', sans-serif;
   font-size: 36px;
   line-height: 42px;
   text-transform: uppercase;
@@ -34,7 +35,7 @@ body {
   display: flex;
    align-items: center;
    justify-content: space-around;
-   
+
 }
 
   nav.main-nav {
@@ -60,12 +61,12 @@ list-style-type: none;
 li a:hover {
     background-color: green;
 }
-  
+
   div.content-wrapper {
 
   display: flex;
   flex-direction: column;
-  
+
   position: relative;
   top: 10vh;
   }
@@ -73,17 +74,9 @@ li a:hover {
 
 
 
-  article.main-content {
-    display: flex;
-  flex-direction: row;
 
-  width: 80vw;
-  background: white;
-  }
 
   footer {
-  position: absolute;
-  bottom: 0;
   display: flex;
   -webkit-justify-content: center;
   justify-content: center;
@@ -94,7 +87,6 @@ li a:hover {
   flex-direction: column;
   background: black;
   color: white;
-  width: 100vw;
   height: 10vh;
   }
 
