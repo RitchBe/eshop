@@ -1,0 +1,26 @@
+h2.hometitle {
+	display: flex;
+	padding-left: 10vw;
+	color: green;
+	font-size: 50px;
+}
+
+img.logo {
+	display: flex;
+	-webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;	
+  position: relative;
+}
+
+
+p.intro{
+	height: 100vh;
+	display: flex;
+	-webkit-align-items: center;
+  align-items: center;
+  
+  padding-left: 20vw;
+
+}
